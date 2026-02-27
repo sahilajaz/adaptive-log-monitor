@@ -106,3 +106,37 @@ Kubernetes-native deployment
 To build an intelligent, extensible, enterprise-grade log monitoring system capable of handling modern distributed architectures.
 
 ![img.png](img.png)
+
+🐳 Local Development Setup
+
+This project uses Docker to run the required log storage and visualization services:
+
+Elasticsearch — Centralized log storage and search engine
+
+Kibana — Visualization and dashboard UI for log exploration
+
+Make sure both services are running locally before starting the Spring Boot application.
+
+🌐 Service Access
+
+Once running, you can access:
+
+Service	URL
+Elasticsearch API	http://localhost:9200
+
+Kibana Dashboard	http://localhost:5601
+
+📊 Kibana
+
+Kibana provides a web-based UI to:
+
+Explore log indices
+
+Search and filter logs
+
+Create visualizations
+
+Build monitoring dashboards
+
+Access it at:
+http://localhost:5601
