@@ -75,6 +75,8 @@ AI-driven intelligence layer
 
 Scalable cloud-ready architecture
 
+🛠️ Tech Stack
+
 Java 17
 
 Spring Boot
