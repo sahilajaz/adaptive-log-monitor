@@ -1,3 +1,7 @@
 spring:
   application:
     name: log-monitoring-ai
+  elasticsearch:
+    uris: http://localhost:9200
+
+
